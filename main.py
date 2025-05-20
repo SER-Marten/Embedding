@@ -1,6 +1,6 @@
 from fastapi import FastAPI, UploadFile, File
 import pandas as pd
-from serpapi import GoogleSearch
+from serpapi.google_search_results import GoogleSearch
 
 app = FastAPI()
 
